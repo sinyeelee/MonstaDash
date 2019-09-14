@@ -1,0 +1,118 @@
+
+.todo-list {
+  background-color: lightgrey;
+  margin-top: 5rem;
+  border-radius: 15px;
+}
+
+.list-title {
+  margin-top: -6rem;
+  margin-bottom: 4rem
+}
+
+.card-content>ul {
+  margin-top: -3rem;
+}
+
+.todo-items {
+  padding: 1rem 0rem;
+  word-wrap: break-word;
+}
+
+.todo-items>li {
+  border-bottom: 1px solid grey;
+  padding: 1rem 0rem
+}
+
+.addTodo {
+  display: flex;
+  align-items: center;
+}
+
+.signin {
+  margin-top: 5rem
+}
+
+.calendar-container {
+  margin-top: 3rem
+}
+
+#calendar {
+  display: grid;
+  width: 59.5rem;
+  height: 600px;
+  grid-template-columns: repeat(7, 8rem);
+  grid-template-rows: repeat(6, 7rem);
+}
+
+.calendarNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1rem;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+
+.calendarNav-month {
+  font-size: 2rem
+}
+
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 7rem;
+  border: 0.5px solid rgba(220, 220, 220);
+  justify-content: flex-start;
+  padding: 0.5rem
+}
+
+.week {
+  display: grid;
+  grid-template-columns: repeat(7, 8rem);
+}
+
+.week-item {
+  border: 1px solid rgba(220, 220, 220);
+  height: 1.5rem;
+  
+}
+
+.modal {
+  width: 30rem
+}
+
+.calendarList-container {
+  margin-top: 5rem;
+  border: 0.5px solid rgba(220, 220, 220);
+}
+
+.collection {
+  margin-top: 0;
+}
+
+.collection-box {
+  height: 5rem
+}
+.collection-header {
+  background-color:  rgba(220, 220, 220, 0.5)
+}
+
+#cmodel {
+  z-index: 1;
+  float: right;
+  width: 27.5rem;
+}
+
+.collection-box > .collection >.collection-header {
+  display: flex
+}
+
+.addbtn {
+  margin-left: 13rem
+}
+
+.main-calendar-dateNo {
+  display: block
+}
